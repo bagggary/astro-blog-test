@@ -1,9 +1,11 @@
 ---
 import "../styles/global.css";
 import Hamburger from "../components/Hamburger.astro";
+import ThemeIcon from "../components/ThemeIcon.astro";
 ---
 
 <Hamburger />
+<ThemeIcon client:load />
 <div class="nav-links">
   <a href="/">Home</a>
   <a href="/about">About</a>
